@@ -1,220 +1,148 @@
 import bpy
-bpy.data.materials.new(name="Elements.H")
-bpy.data.materials["Elements.H"].diffuse_color = (1.0, 1.0, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.He")
-bpy.data.materials["Elements.He"].diffuse_color = (0.8509803921568627, 1.0, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Li")
-bpy.data.materials["Elements.Li"].diffuse_color = (0.8, 0.5019607843137255, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Be")
-bpy.data.materials["Elements.Be"].diffuse_color = (0.7607843137254902, 1.0, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.B")
-bpy.data.materials["Elements.B"].diffuse_color = (1.0, 0.7098039215686275, 0.7098039215686275, 1.0)
-bpy.data.materials.new(name="Elements.C")
-bpy.data.materials["Elements.C"].diffuse_color = (0.5647058823529412, 0.5647058823529412, 0.5647058823529412, 1.0)
-bpy.data.materials.new(name="Elements.N")
-bpy.data.materials["Elements.N"].diffuse_color = (0.18823529411764706, 0.3137254901960784, 0.9725490196078431, 1.0)
-bpy.data.materials.new(name="Elements.O")
-bpy.data.materials["Elements.O"].diffuse_color = (1.0, 0.050980392156862744, 0.050980392156862744, 1.0)
-bpy.data.materials.new(name="Elements.F")
-bpy.data.materials["Elements.F"].diffuse_color = (0.5647058823529412, 0.8784313725490196, 0.3137254901960784, 1.0)
-bpy.data.materials.new(name="Elements.Ne")
-bpy.data.materials["Elements.Ne"].diffuse_color = (0.7019607843137254, 0.8901960784313725, 0.9607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.Na")
-bpy.data.materials["Elements.Na"].diffuse_color = (0.6705882352941176, 0.3607843137254902, 0.9490196078431372, 1.0)
-bpy.data.materials.new(name="Elements.Mg")
-bpy.data.materials["Elements.Mg"].diffuse_color = (0.5411764705882353, 1.0, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.Al")
-bpy.data.materials["Elements.Al"].diffuse_color = (0.7490196078431373, 0.6509803921568628, 0.6509803921568628, 1.0)
-bpy.data.materials.new(name="Elements.Si")
-bpy.data.materials["Elements.Si"].diffuse_color = (0.9411764705882353, 0.7843137254901961, 0.6274509803921569, 1.0)
-bpy.data.materials.new(name="Elements.P")
-bpy.data.materials["Elements.P"].diffuse_color = (1.0, 0.5019607843137255, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.S")
-bpy.data.materials["Elements.S"].diffuse_color = (1.0, 1.0, 0.18823529411764706, 1.0)
-bpy.data.materials.new(name="Elements.Cl")
-bpy.data.materials["Elements.Cl"].diffuse_color = (0.12156862745098039, 0.9411764705882353, 0.12156862745098039, 1.0)
-bpy.data.materials.new(name="Elements.Ar")
-bpy.data.materials["Elements.Ar"].diffuse_color = (0.5019607843137255, 0.8196078431372549, 0.8901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.K")
-bpy.data.materials["Elements.K"].diffuse_color = (0.5607843137254902, 0.25098039215686274, 0.8313725490196079, 1.0)
-bpy.data.materials.new(name="Elements.Ca")
-bpy.data.materials["Elements.Ca"].diffuse_color = (0.23921568627450981, 1.0, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.Sc")
-bpy.data.materials["Elements.Sc"].diffuse_color = (0.9019607843137255, 0.9019607843137255, 0.9019607843137255, 1.0)
-bpy.data.materials.new(name="Elements.Ti")
-bpy.data.materials["Elements.Ti"].diffuse_color = (0.7490196078431373, 0.7607843137254902, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.V")
-bpy.data.materials["Elements.V"].diffuse_color = (0.6509803921568628, 0.6509803921568628, 0.6705882352941176, 1.0)
-bpy.data.materials.new(name="Elements.Cr")
-bpy.data.materials["Elements.Cr"].diffuse_color = (0.5411764705882353, 0.6, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Mn")
-bpy.data.materials["Elements.Mn"].diffuse_color = (0.611764705882353, 0.47843137254901963, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Fe")
-bpy.data.materials["Elements.Fe"].diffuse_color = (0.8784313725490196, 0.4, 0.2, 1.0)
-bpy.data.materials.new(name="Elements.Co")
-bpy.data.materials["Elements.Co"].diffuse_color = (0.9411764705882353, 0.5647058823529412, 0.6274509803921569, 1.0)
-bpy.data.materials.new(name="Elements.Ni")
-bpy.data.materials["Elements.Ni"].diffuse_color = (0.3137254901960784, 0.8156862745098039, 0.3137254901960784, 1.0)
-bpy.data.materials.new(name="Elements.Cu")
-bpy.data.materials["Elements.Cu"].diffuse_color = (0.7843137254901961, 0.5019607843137255, 0.2, 1.0)
-bpy.data.materials.new(name="Elements.Zn")
-bpy.data.materials["Elements.Zn"].diffuse_color = (0.49019607843137253, 0.5019607843137255, 0.6901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.Ga")
-bpy.data.materials["Elements.Ga"].diffuse_color = (0.7607843137254902, 0.5607843137254902, 0.5607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.Ge")
-bpy.data.materials["Elements.Ge"].diffuse_color = (0.4, 0.5607843137254902, 0.5607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.As")
-bpy.data.materials["Elements.As"].diffuse_color = (0.7411764705882353, 0.5019607843137255, 0.8901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.Se")
-bpy.data.materials["Elements.Se"].diffuse_color = (1.0, 0.6313725490196078, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.Br")
-bpy.data.materials["Elements.Br"].diffuse_color = (0.6509803921568628, 0.1607843137254902, 0.1607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.Kr")
-bpy.data.materials["Elements.Kr"].diffuse_color = (0.3607843137254902, 0.7215686274509804, 0.8196078431372549, 1.0)
-bpy.data.materials.new(name="Elements.Rb")
-bpy.data.materials["Elements.Rb"].diffuse_color = (0.4392156862745098, 0.1803921568627451, 0.6901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.Sr")
-bpy.data.materials["Elements.Sr"].diffuse_color = (0.0, 1.0, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.Y")
-bpy.data.materials["Elements.Y"].diffuse_color = (0.5803921568627451, 1.0, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Zr")
-bpy.data.materials["Elements.Zr"].diffuse_color = (0.5803921568627451, 0.8784313725490196, 0.8784313725490196, 1.0)
-bpy.data.materials.new(name="Elements.Nb")
-bpy.data.materials["Elements.Nb"].diffuse_color = (0.45098039215686275, 0.7607843137254902, 0.788235294117647, 1.0)
-bpy.data.materials.new(name="Elements.Mo")
-bpy.data.materials["Elements.Mo"].diffuse_color = (0.32941176470588235, 0.7098039215686275, 0.7098039215686275, 1.0)
-bpy.data.materials.new(name="Elements.Tc")
-bpy.data.materials["Elements.Tc"].diffuse_color = (0.23137254901960785, 0.6196078431372549, 0.6196078431372549, 1.0)
-bpy.data.materials.new(name="Elements.Ru")
-bpy.data.materials["Elements.Ru"].diffuse_color = (0.1411764705882353, 0.5607843137254902, 0.5607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.Rh")
-bpy.data.materials["Elements.Rh"].diffuse_color = (0.0392156862745098, 0.49019607843137253, 0.5490196078431373, 1.0)
-bpy.data.materials.new(name="Elements.Pd")
-bpy.data.materials["Elements.Pd"].diffuse_color = (0.0, 0.4117647058823529, 0.5215686274509804, 1.0)
-bpy.data.materials.new(name="Elements.Ag")
-bpy.data.materials["Elements.Ag"].diffuse_color = (0.7529411764705882, 0.7529411764705882, 0.7529411764705882, 1.0)
-bpy.data.materials.new(name="Elements.Cd")
-bpy.data.materials["Elements.Cd"].diffuse_color = (1.0, 0.8509803921568627, 0.5607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.In")
-bpy.data.materials["Elements.In"].diffuse_color = (0.6509803921568628, 0.4588235294117647, 0.45098039215686275, 1.0)
-bpy.data.materials.new(name="Elements.Sn")
-bpy.data.materials["Elements.Sn"].diffuse_color = (0.4, 0.5019607843137255, 0.5019607843137255, 1.0)
-bpy.data.materials.new(name="Elements.Sb")
-bpy.data.materials["Elements.Sb"].diffuse_color = (0.6196078431372549, 0.38823529411764707, 0.7098039215686275, 1.0)
-bpy.data.materials.new(name="Elements.Te")
-bpy.data.materials["Elements.Te"].diffuse_color = (0.8313725490196079, 0.47843137254901963, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.I")
-bpy.data.materials["Elements.I"].diffuse_color = (0.5803921568627451, 0.0, 0.5803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Xe")
-bpy.data.materials["Elements.Xe"].diffuse_color = (0.25882352941176473, 0.6196078431372549, 0.6901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.Cs")
-bpy.data.materials["Elements.Cs"].diffuse_color = (0.3411764705882353, 0.09019607843137255, 0.5607843137254902, 1.0)
-bpy.data.materials.new(name="Elements.Ba")
-bpy.data.materials["Elements.Ba"].diffuse_color = (0.0, 0.788235294117647, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.La")
-bpy.data.materials["Elements.La"].diffuse_color = (0.4392156862745098, 0.8313725490196079, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Ce")
-bpy.data.materials["Elements.Ce"].diffuse_color = (1.0, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Pr")
-bpy.data.materials["Elements.Pr"].diffuse_color = (0.8509803921568627, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Nd")
-bpy.data.materials["Elements.Nd"].diffuse_color = (0.7803921568627451, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Pm")
-bpy.data.materials["Elements.Pm"].diffuse_color = (0.6392156862745098, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Sm")
-bpy.data.materials["Elements.Sm"].diffuse_color = (0.5607843137254902, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Eu")
-bpy.data.materials["Elements.Eu"].diffuse_color = (0.3803921568627451, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Gd")
-bpy.data.materials["Elements.Gd"].diffuse_color = (0.27058823529411763, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Tb")
-bpy.data.materials["Elements.Tb"].diffuse_color = (0.18823529411764706, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Dy")
-bpy.data.materials["Elements.Dy"].diffuse_color = (0.12156862745098039, 1.0, 0.7803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Ho")
-bpy.data.materials["Elements.Ho"].diffuse_color = (0.0, 1.0, 0.611764705882353, 1.0)
-bpy.data.materials.new(name="Elements.Er")
-bpy.data.materials["Elements.Er"].diffuse_color = (0.0, 0.9019607843137255, 0.4588235294117647, 1.0)
-bpy.data.materials.new(name="Elements.Tm")
-bpy.data.materials["Elements.Tm"].diffuse_color = (0.0, 0.8313725490196079, 0.3215686274509804, 1.0)
-bpy.data.materials.new(name="Elements.Yb")
-bpy.data.materials["Elements.Yb"].diffuse_color = (0.0, 0.7490196078431373, 0.2196078431372549, 1.0)
-bpy.data.materials.new(name="Elements.Lu")
-bpy.data.materials["Elements.Lu"].diffuse_color = (0.0, 0.6705882352941176, 0.1411764705882353, 1.0)
-bpy.data.materials.new(name="Elements.Hf")
-bpy.data.materials["Elements.Hf"].diffuse_color = (0.30196078431372547, 0.7607843137254902, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Ta")
-bpy.data.materials["Elements.Ta"].diffuse_color = (0.30196078431372547, 0.6509803921568628, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.W")
-bpy.data.materials["Elements.W"].diffuse_color = (0.12941176470588237, 0.5803921568627451, 0.8392156862745098, 1.0)
-bpy.data.materials.new(name="Elements.Re")
-bpy.data.materials["Elements.Re"].diffuse_color = (0.14901960784313725, 0.49019607843137253, 0.6705882352941176, 1.0)
-bpy.data.materials.new(name="Elements.Os")
-bpy.data.materials["Elements.Os"].diffuse_color = (0.14901960784313725, 0.4, 0.5882352941176471, 1.0)
-bpy.data.materials.new(name="Elements.Ir")
-bpy.data.materials["Elements.Ir"].diffuse_color = (0.09019607843137255, 0.32941176470588235, 0.5294117647058824, 1.0)
-bpy.data.materials.new(name="Elements.Pt")
-bpy.data.materials["Elements.Pt"].diffuse_color = (0.8156862745098039, 0.8156862745098039, 0.8784313725490196, 1.0)
-bpy.data.materials.new(name="Elements.Au")
-bpy.data.materials["Elements.Au"].diffuse_color = (1.0, 0.8196078431372549, 0.13725490196078433, 1.0)
-bpy.data.materials.new(name="Elements.Hg")
-bpy.data.materials["Elements.Hg"].diffuse_color = (0.7215686274509804, 0.7215686274509804, 0.8156862745098039, 1.0)
-bpy.data.materials.new(name="Elements.Tl")
-bpy.data.materials["Elements.Tl"].diffuse_color = (0.6509803921568628, 0.32941176470588235, 0.30196078431372547, 1.0)
-bpy.data.materials.new(name="Elements.Pb")
-bpy.data.materials["Elements.Pb"].diffuse_color = (0.3411764705882353, 0.34901960784313724, 0.3803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Bi")
-bpy.data.materials["Elements.Bi"].diffuse_color = (0.6196078431372549, 0.30980392156862746, 0.7098039215686275, 1.0)
-bpy.data.materials.new(name="Elements.Po")
-bpy.data.materials["Elements.Po"].diffuse_color = (0.6705882352941176, 0.3607843137254902, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.At")
-bpy.data.materials["Elements.At"].diffuse_color = (0.4588235294117647, 0.30980392156862746, 0.27058823529411763, 1.0)
-bpy.data.materials.new(name="Elements.Rn")
-bpy.data.materials["Elements.Rn"].diffuse_color = (0.25882352941176473, 0.5098039215686274, 0.5882352941176471, 1.0)
-bpy.data.materials.new(name="Elements.Fr")
-bpy.data.materials["Elements.Fr"].diffuse_color = (0.25882352941176473, 0.0, 0.4, 1.0)
-bpy.data.materials.new(name="Elements.Ra")
-bpy.data.materials["Elements.Ra"].diffuse_color = (0.0, 0.49019607843137253, 0.0, 1.0)
-bpy.data.materials.new(name="Elements.Ac")
-bpy.data.materials["Elements.Ac"].diffuse_color = (0.4392156862745098, 0.6705882352941176, 0.9803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Th")
-bpy.data.materials["Elements.Th"].diffuse_color = (0.0, 0.7294117647058823, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Pa")
-bpy.data.materials["Elements.Pa"].diffuse_color = (0.0, 0.6313725490196078, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.U")
-bpy.data.materials["Elements.U"].diffuse_color = (0.0, 0.5607843137254902, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Np")
-bpy.data.materials["Elements.Np"].diffuse_color = (0.0, 0.5019607843137255, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Pu")
-bpy.data.materials["Elements.Pu"].diffuse_color = (0.0, 0.4196078431372549, 1.0, 1.0)
-bpy.data.materials.new(name="Elements.Am")
-bpy.data.materials["Elements.Am"].diffuse_color = (0.32941176470588235, 0.3607843137254902, 0.9490196078431372, 1.0)
-bpy.data.materials.new(name="Elements.Cm")
-bpy.data.materials["Elements.Cm"].diffuse_color = (0.47058823529411764, 0.3607843137254902, 0.8901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.Bk")
-bpy.data.materials["Elements.Bk"].diffuse_color = (0.5411764705882353, 0.30980392156862746, 0.8901960784313725, 1.0)
-bpy.data.materials.new(name="Elements.Cf")
-bpy.data.materials["Elements.Cf"].diffuse_color = (0.6313725490196078, 0.21176470588235294, 0.8313725490196079, 1.0)
-bpy.data.materials.new(name="Elements.Es")
-bpy.data.materials["Elements.Es"].diffuse_color = (0.7019607843137254, 0.12156862745098039, 0.8313725490196079, 1.0)
-bpy.data.materials.new(name="Elements.Fm")
-bpy.data.materials["Elements.Fm"].diffuse_color = (0.7019607843137254, 0.12156862745098039, 0.7294117647058823, 1.0)
-bpy.data.materials.new(name="Elements.Md")
-bpy.data.materials["Elements.Md"].diffuse_color = (0.7019607843137254, 0.050980392156862744, 0.6509803921568628, 1.0)
-bpy.data.materials.new(name="Elements.No")
-bpy.data.materials["Elements.No"].diffuse_color = (0.7411764705882353, 0.050980392156862744, 0.5294117647058824, 1.0)
-bpy.data.materials.new(name="Elements.Lr")
-bpy.data.materials["Elements.Lr"].diffuse_color = (0.7803921568627451, 0.0, 0.4, 1.0)
-bpy.data.materials.new(name="Elements.Rf")
-bpy.data.materials["Elements.Rf"].diffuse_color = (0.8, 0.0, 0.34901960784313724, 1.0)
-bpy.data.materials.new(name="Elements.Db")
-bpy.data.materials["Elements.Db"].diffuse_color = (0.8196078431372549, 0.0, 0.30980392156862746, 1.0)
-bpy.data.materials.new(name="Elements.Sg")
-bpy.data.materials["Elements.Sg"].diffuse_color = (0.8509803921568627, 0.0, 0.27058823529411763, 1.0)
-bpy.data.materials.new(name="Elements.Bh")
-bpy.data.materials["Elements.Bh"].diffuse_color = (0.8784313725490196, 0.0, 0.2196078431372549, 1.0)
-bpy.data.materials.new(name="Elements.Hs")
-bpy.data.materials["Elements.Hs"].diffuse_color = (0.9019607843137255, 0.0, 0.1803921568627451, 1.0)
-bpy.data.materials.new(name="Elements.Mt")
-bpy.data.materials["Elements.Mt"].diffuse_color = (0.9215686274509803, 0.0, 0.14901960784313725, 1.0)
 
+Jmol_color_data ="""1	H	[255,255,255]
+2	He	[217,255,255]
+3	Li	[204,128,255]
+4	Be	[194,255,0]
+5	B	[255,181,181]
+6	C	[44,44,44]
+7	N	[48,80,248]
+8	O	[255,13,13]
+9	F	[144,224,80]
+10	Ne	[179,227,245]
+11	Na	[171,92,242]
+12	Mg	[138,255,0]
+13	Al	[191,166,166]
+14	Si	[240,200,160]
+15	P	[255,128,0]
+16	S	[255,255,48]
+17	Cl	[31,240,31]
+18	Ar	[128,209,227]
+19	K	[143,64,212]
+20	Ca	[61,255,0]
+21	Sc	[230,230,230]
+22	Ti	[191,194,199]
+23	V	[166,166,171]
+24	Cr	[138,153,199]
+25	Mn	[156,122,199]
+26	Fe	[224,102,51]
+27	Co	[240,144,160]
+28	Ni	[80,208,80]
+29	Cu	[200,128,51]
+30	Zn	[125,128,176]
+31	Ga	[194,143,143]
+32	Ge	[102,143,143]
+33	As	[189,128,227]
+34	Se	[255,161,0]
+35	Br	[166,41,41]
+36	Kr	[92,184,209]
+37	Rb	[112,46,176]
+38	Sr	[0,255,0]
+39	Y	[148,255,255]
+40	Zr	[148,224,224]
+41	Nb	[115,194,201]
+42	Mo	[84,181,181]
+43	Tc	[59,158,158]
+44	Ru	[36,143,143]
+45	Rh	[10,125,140]
+46	Pd	[0,105,133]
+47	Ag	[192,192,192]
+48	Cd	[255,217,143]
+49	In	[166,117,115]
+50	Sn	[102,128,128]
+51	Sb	[158,99,181]
+52	Te	[212,122,0]
+53	I	[148,0,148]
+54	Xe	[66,158,176]
+55	Cs	[87,23,143]
+56	Ba	[0,201,0]
+57	La	[112,212,255]
+58	Ce	[255,255,199]
+59	Pr	[217,255,199]
+60	Nd	[199,255,199]
+61	Pm	[163,255,199]
+62	Sm	[143,255,199]
+63	Eu	[97,255,199]
+64	Gd	[69,255,199]
+65	Tb	[48,255,199]
+66	Dy	[31,255,199]
+67	Ho	[0,255,156]
+68	Er	[0,230,117]
+69	Tm	[0,212,82]
+70	Yb	[0,191,56]
+71	Lu	[0,171,36]
+72	Hf	[77,194,255]
+73	Ta	[77,166,255]
+74	W	[33,148,214]
+75	Re	[38,125,171]
+76	Os	[38,102,150]
+77	Ir	[23,84,135]
+78	Pt	[208,208,224]
+79	Au	[255,209,35]
+80	Hg	[184,184,208]
+81	Tl	[166,84,77]
+82	Pb	[87,89,97]
+83	Bi	[158,79,181]
+84	Po	[171,92,0]
+85	At	[117,79,69]
+86	Rn	[66,130,150]
+87	Fr	[66,0,102]
+88	Ra	[0,125,0]
+89	Ac	[112,171,250]
+90	Th	[0,186,255]
+91	Pa	[0,161,255]
+92	U	[0,143,255]
+93	Np	[0,128,255]
+94	Pu	[0,107,255]
+95	Am	[84,92,242]
+96	Cm	[120,92,227]
+97	Bk	[138,79,227]
+98	Cf	[161,54,212]
+99	Es	[179,31,212]
+100	Fm	[179,31,186]
+101	Md	[179,13,166]
+102	No	[189,13,135]
+103	Lr	[199,0,102]
+104	Rf	[204,0,89]
+105	Db	[209,0,79]
+106	Sg	[217,0,69]
+107	Bh	[224,0,56]
+108	Hs	[230,0,46]
+109	Mt	[235,0,38]"""
+
+class Material():
+    def __init__(self,name,color_list):
+        self.r = float(color_list[0])/255
+        self.g = float(color_list[1])/255
+        self.b = float(color_list[2])/255
+        self.a = float(1.0)
+        self.name = name
+        self.create_material()
+    def create_material(self):
+        bpy.data.materials.new(self.name)
+#         bpy.data.materials[self.name].diffuse_color = ( self.r, self.g, self.b, self.a )
+        bpy.data.materials[self.name].use_nodes = True
+        self.nodes = bpy.data.materials[self.name].node_tree.nodes
+        self.bsdf = self.nodes.get("Principled BSDF")
+        self.bsdf.inputs["Base Color"].default_value = ( self.r, self.g, self.b, self.a )
+    def add_emission(self,magnitude = 1.0):
+        mat = bpy.data.materials[self.name]
+        nodes = mat.node_tree.nodes
+        links = mat.node_tree.links
+        output = nodes.new('ShaderNodeOutputMaterial')
+        shader = nodes.new('ShaderNodeEmission')
+        nodes["Emission"].inputs[0].default_value = (self.r, self.g, self.b, self.a)
+        nodes["Emission"].inputs[1].default_value = magnitude
+        links.new(shader.outputs[0], output.inputs[0])
+    def add_transparency(self,magnitude=0.0):
+        self.bsdf.inputs["Transmission"].default_value = magnitude
+        
+for line in Jmol_color_data.split("\n"):
+    subline = line.split()
+    element = subline[1]
+    colors  = subline[2].strip('][').split(',')
+    mat = Material(f"Elements.{element}",colors)
+    mat.add_transparency(0.25)
+    
+bond = Material("Bond",[255,255,255])
+bond.add_emission(0.00015)
